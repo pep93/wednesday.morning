@@ -1,0 +1,25 @@
+Package: wednesday.morning
+Title: Tells you if it is Wednesday Morning
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Paige",
+           family = "Patrick",
+           role = "cre",
+           email = "ppatrick@smith.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+      person(given = "Emily",
+           family = "Daubenspeck",
+           role = "aut",
+           email = "edaubenspeck@smith.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID")))
+Description: What the package does (one paragraph).
+License: GPL-3
+Imports: 
+    emo,
+    crayon
+Suggests: 
+    testthat (>= 2.1.0)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
