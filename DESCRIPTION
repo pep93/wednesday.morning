@@ -15,8 +15,9 @@ Authors@R:
 Description: What the package does (one paragraph).
 License: GPL-3
 Imports: 
-    emo,
     crayon
+Remotes: 
+    hadley/emo
 Suggests: 
     testthat (>= 2.1.0)
 Encoding: UTF-8
